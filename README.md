@@ -41,11 +41,11 @@ dragoshs.j@yahoo.com
     * [x] ServerErrorException class. 500
     
 * Write web pages:
-    * [ ] Index page index.ftl
-    * [ ] User page user.ftl
-    * [ ] Repositories page repos.ftl
-    * [ ] Commits page commits.ftl
-    * [ ] Exception page timeline_error.ftl
+    * [x] Index page index.ftl
+    * [x] User page user.ftl
+    * [x] Repositories page repos.ftl
+    * [x] Commits page commits.ftl
+    * [x] Exception page timeline_error.ftl
     
 * Write a controller:
     * [ ] TimeLineController class
