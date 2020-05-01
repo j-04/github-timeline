@@ -35,10 +35,10 @@ dragoshs.j@yahoo.com
     * [x] GitHubHttpClient service. It will prepare all data for normal use.
 
 * Write exception handler:
-    * [ ] ExceptionController class
-    * [ ] ObjectNotFoundException class. 404
-    * [ ] BadRequestException class. 400
-    * [ ] ServerErrorException class. 500
+    * [x] ExceptionController class
+    * [x] ObjectNotFoundException class. 404
+    * [x] BadRequestException class. 400
+    * [x] ServerErrorException class. 500
     
 * Write web pages:
     * [ ] Index page index.ftl
