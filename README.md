@@ -30,9 +30,9 @@ dragoshs.j@yahoo.com
     * [x] Get commits of a repository
     
 * Write services:
-    * [ ] TimeLine service (Main service of the server that will interact with all other services).
-    * [ ] ModelFactory service. It will insert dynamic information in web pages.
-    * [ ] GitHubHttpClient service. It will prepare all data for normal use.
+    * [x] TimeLine service (Main service of the server that will interact with all other services).
+    * [x] ModelFactory service. It will insert dynamic information in web pages.
+    * [x] GitHubHttpClient service. It will prepare all data for normal use.
 
 * Write exception handler:
     * [ ] ExceptionController class
