@@ -25,9 +25,9 @@ dragoshs.j@yahoo.com
     * [x] Commit entity
 
 * Write http client for make calls to github api:
-    * [ ] Get user
-    * [ ] Get repositories
-    * [ ] Get commits of a repository
+    * [x] Get user
+    * [x] Get repositories
+    * [x] Get commits of a repository
     
 * Write services:
     * [ ] TimeLine service (Main service of the server that will interact with all other services).
