@@ -48,4 +48,4 @@ dragoshs.j@yahoo.com
     * [x] Exception page timeline_error.ftl
     
 * Write a controller:
-    * [ ] TimeLineController class
+    * [x] TimeLineController class
