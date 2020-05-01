@@ -14,7 +14,7 @@
         </li>
         <#list commits as commit>
             <#if commits?has_content>
-                <li class="event" data-date="Commit">
+                <li class="event" data-date="${commit.commitProperty.committer.date}">
                     <h3>SHA</h3>
                     <p>${commit.sha}</p>
 
@@ -26,8 +26,6 @@
                     <p>${commit.commitProperty.committer.name}</p>
                     <h5>Email</h5>
                     <p>${commit.commitProperty.committer.email}</p>
-                    <h5>Date</h5>
-                    <p>${commit.commitProperty.committer.date}</p>
 
                     <form action="${commit.htmlUrl}" method="get">
                         <button type="submit" class="btn btn-dark btn-sm w-100">Commit on github</button>
