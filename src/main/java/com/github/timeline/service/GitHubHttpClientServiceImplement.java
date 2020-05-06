@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class GitHubHttpClientServiceImplement implements GitHubHttpClientService {
     private final GitHubHttpClient client;
     private final SorterService sorterService;
-    final String topSecret = "*TOP SECRET*";
+    private final String topSecret = "*TOP SECRET*";
 
     @Autowired
     public GitHubHttpClientServiceImplement(@Qualifier("gitHubHttpClient") GitHubHttpClient client,
